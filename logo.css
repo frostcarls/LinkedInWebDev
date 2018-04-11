@@ -1,0 +1,11 @@
+.logo {
+	  background-color: white;
+	  padding: 30px 30px;
+    float: left;
+    width: 290px;
+    height: 30px;
+ 	  font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Verdana;
+}
