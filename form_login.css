@@ -1,12 +1,13 @@
 form input#login {
-    font-size: 25;
+    font-size: 20;
     float: right;
     padding: 5px 5px;
 }
 form#form_login {
+    color: #f2f2f2;
     padding: 5px 10px;
     text-decoration: none;
-    background-color: #006666;
+    background-color: #333;
     border-radius: 0.3cm;
     width: 10cm;
     margin-left: 80px;

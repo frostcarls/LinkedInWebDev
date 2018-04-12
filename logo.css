@@ -1,11 +1,12 @@
 body div#logo {
-	background-color: white;
-	padding: 30px 30px;
+	color: white;
+	padding: 15px 15px;
     float: left;
     width: 290px;
     height: 30px;
  	font-size: 30px;
     font-weight: bold;
-    margin-left: 50px;
+	margin-top: 20px;
+    margin-left: 80px;
     font-family: Verdana;
 }
