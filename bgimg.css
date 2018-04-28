@@ -1,5 +1,6 @@
 body {
-    background-color: #262626;
+    background-image:url("bkgd.jpg");
+    background-size: cover;
 }
 body div#img{
     background-image:url("images4.jpg");

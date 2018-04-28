@@ -10,3 +10,8 @@ body div#logo {
     margin-left: 80px;
     font-family: Verdana;
 }
+
+footer {
+    color: #000000;
+    text-align: center;
+}
