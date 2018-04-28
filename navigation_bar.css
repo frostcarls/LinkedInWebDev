@@ -3,13 +3,13 @@ body button {
     padding: 5px 5px;
     background-color: white;
     color: #006666;
-    margin-right: 100px;
+    margin-right: 90px;
     border-radius: 0.09cm;
 }
 
 body div#nav {
     position: static;
-    margin-left: 400px;
+    margin-left: 420px;
     margin-top: -60px;
     background-color: #006666;
     overflow: hidden;
