@@ -1,5 +1,5 @@
 form input#login {
-    font-size: 20;
+    font-size: 15;
     float: right;
     padding: 5px 5px;
     margin-right: 35px;
@@ -23,4 +23,34 @@ form h2#login_head01 {
 form div#user_pass {
     text-align: center;
     font-size: 20px;
+}
+
+form#find_a_job {
+    color: #f2f2f2;
+    padding: 0.1cm 10px;
+    text-decoration: none;
+    background-color: #66cc00;
+    border-radius: 0.2cm;
+    width: 17.8cm;
+    height: 7.8cm;
+    float: right;
+    margin-right: 85px;
+    margin-top: -319px;
+}
+
+form h2#find_head {
+    font-family: sans-serif;
+    background-color: #66bb00;
+    padding: 10px 10px;
+    border-radius: 0.2cm;
+}
+
+form#find_a_job div#find_job {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+form input#search {
+    font-size: 10;
+    padding: 3px;
 }

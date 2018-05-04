@@ -5,6 +5,7 @@ body button {
     color: #006666;
     margin-right: 90px;
     border-radius: 0.09cm;
+    cursor: pointer;
 }
 
 body div#nav {

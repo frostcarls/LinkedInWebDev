@@ -12,11 +12,13 @@
 	</head>
 
 	<body>
-		<button onclick = "raw01.html">Home</button>
+		<form mehtod = "get" action = "file:///Users/apple/Documents/repos/webdev/raw01.html">
+			<button type = "submit">Home</button>
+		</form>
 		<div id = "logo"> Easy search job</div>
 
 		<div id = "nav">
-			<a href="">About Us</a>
+			<a href="about_us.html">About Us</a>
 			<a href="">View Resume</a>
 			<a href="">View Job Listing</a>
 			<a href="">Submit Your Resume</a>
@@ -36,7 +38,7 @@
 
 		<br>
 
-		<form method = "POST" action = "comments.php" id = "form_login">
+		<form method = "POST" action = "login_form.php" id = "form_login">
 			<h2 id = "login_head01">Login form </h2>
 		 	<div id = "user_pass">
 				Username :<input name = "username" type = "text" size = "30"><br><br>
@@ -44,7 +46,51 @@
 			</div>
 			<input type = "submit" id = "login" value = "Login" ><br><br>
 			<a href="" style = "color: #66cc00;"><u>Forgotten password</u></a><br><br>
-			<a href="" style = "color: #66cc00;"><u>Register Now !</u></a><br><br>
+			<a href="signup.html" style = "color: #66cc00;"><u>Register Now !</u></a><br><br>
+		</form>
+		<form method = "post" action = "find_a_job.php" id = "find_a_job">
+			<h2 id = "find_head">Find a job</h2>
+			<div id = "find_job">
+				<br>
+			Company :<select name = "Commpany">
+						<option value = "-1" selected>-- All companies --</option>
+						<option value = "1">Reliance Industries</option>
+						<option value = "2">Accenture</option>
+						<option value = "3">State Bank of India</option>
+						<option value = "4">TATA Motors</option>
+					</select>
+			&emsp;&emsp;
+			Experience :<select name = "Experience">
+							<option value = "-1" selected>-- Select years --</option>
+							<option value = "1">6 months</option>
+							<option value = "2">1 year</option>
+							<option value = "3">3 years</option>
+							<option value = "4">5+ years</option>
+							<option value = "5">Graduate</option>
+						</select><br><br>
+			Category :&nbsp;
+						<select name = "Category">
+					  		<option value = "-1" selected>-- All categories --</option>
+							<option value = "1">Software</option>
+							<option value = "2">Textile</option>
+							<option value = "3">Automobile</option>
+							<option value = "4">Medicine</option>
+						</select>
+			&emsp;&emsp;
+			Keyword :<input type = "text" size="20" name = "Keyword">
+			<br><br>
+			Region :&nbsp;&nbsp;
+					<select name = "Region">
+						<option value = "-1" selected>-- Select a region --</option>
+						<option value = "1">Bengaluru</option>
+						<option value = "2">Chennai</option>
+						<option value = "3">Delhi</option>
+						<option value = "4">Calicut</option>
+					</select>
+				&emsp;&emsp; &emsp;
+				<input type = "submit" id = "search" value = "SEARCH" >
+				<a href = "" style="float: right;"><u>Advanced Search</u></a><br>
+			</div>
 		</form>
 		<div id = "vertical_menu">
 			<a href = "" class = "vertical_menu_head">Browse jobs</a>
