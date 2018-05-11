@@ -1,11 +1,7 @@
-body div#vertical_menu .vertical_menu_head {
-	font-size: 20;
-	font-family: sans-serif;
-}
 body div#vertical_menu {
-    width: 160px;
+	width: 85%;
     overflow-y: auto;
-    margin-left: 80px;
+    margin-left: 180px;
 }
 
 body div#vertical_menu a {

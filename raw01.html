@@ -8,9 +8,9 @@
 		<style type="text/css">a {text-decoration: none}
 			body div#para
 			{
-				margin-left: 300px;
-				margin-top: -360px;
-				margin-right: 80px;
+				margin-left: 100px;
+				margin-top: 0px;
+				margin-right: 100px;
 				font-family: Verdana, sans-serif;
 			}
 			h4 {
@@ -111,18 +111,60 @@
 			</div>
 		</form>
 
-			<div id = "vertical_menu">
-			<a href = "" class = "vertical_menu_head">Browse jobs</a>
-			<div id = "vertical_menu_list" style = "color: #cc0066">
-				<a href = "">* Accounting </a>
-				<a href = "">* Administration </a>
-				<a href = "">* Advert Media</a>
-				<a href = "">* Construction</a>
-				<a href = "">* Education</a>
-				<a href = "">* Software</a>
-				<a href = "">* More...</a>
+		<div id = "vertical_menu">
+
+			<div class="mySlides fade">
+			  <img src="pic/1.jpg" width="85%" height="40%">
 			</div>
+
+			<div class="mySlides fade">
+			  <img src="pic/2.jpg" width="85%" height="40%">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="pic/3.jpg" width="85%" height="40%">
+			</div>
+			<div class="mySlides fade">
+			  <img src="pic/5.png" width="85%" height="40%">
+			</div>
+			<div class="mySlides fade">
+			  <img src="pic/6.jpg" width="85%" height="40%">
+			</div>
+
 		</div>
+		<br>
+
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+
+
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    var dots = document.getElementsByClassName("dot");
+		    for (i = 0; i < slides.length; i++) {
+		       slides[i].style.display = "none";
+		    }
+		    slideIndex++;
+		    if (slideIndex > slides.length) {slideIndex = 1}
+		    for (i = 0; i < dots.length; i++) {
+		        dots[i].className = dots[i].className.replace(" active", "");
+		    }
+		    slides[slideIndex-1].style.display = "block";
+		    dots[slideIndex-1].className += " active";
+		    setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		</script>
+
+
+
 		<div id = "para">
 			<h1 style = "color: #006666">Job for you</h1>
 			<p>No matter where you are in your career, chances are you're in need of a little motivation to get to the
