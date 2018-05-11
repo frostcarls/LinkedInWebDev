@@ -30,6 +30,6 @@ if(mysqli_query($conn, $sql)) {
 
 mysqli_close($conn);
 
-header('location: /webdev/submit_resume.html');
+header('location: /webdev/pages/submit_resume.html');
 ?>
 </html>
