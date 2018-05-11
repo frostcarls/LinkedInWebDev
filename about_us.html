@@ -5,7 +5,34 @@
 		<link rel = "stylesheet" href = "logo.css">
 		<link rel = "stylesheet" href = "form_login.css">
 		<link rel = "stylesheet" href = "side_menu.css">
-		<style type="text/css">a {text-decoration: none}
+		<link rel = "stylesheet" href = "cont.css">
+		<style type="text/css">
+			a {text-decoration: none}
+
+			div#about_us {
+				padding: 10px;
+				font-family: Courier , serif;
+				font-size: 20px;
+			    background-color: #fefefe;
+			    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+			    border: 1px solid transparent;
+				border-radius: 0.3cm;
+			    width: 80%; /* Could be more or less, depending on screen size */
+			}
+			h3#nar {
+				margin-right: 150px;
+				margin-top: 100px;
+			}
+
+			h3#ash {
+				margin-left: 100px;
+				margin-top: 50px;
+			}
+
+			h3#har {
+				margin-top: 150px;
+				margin-right: 50px;
+			}
 		</style>
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
@@ -18,14 +45,43 @@
 		<div id = "logo"> Easy search job</div>
 
 		<div id = "nav">
-			<a href="">About Us</a>
-			<a href="">View Resume</a>
+			<a href="about_us.html">About Us</a>
+			<a href="resume.php">View Resume</a>
 			<a href="">View Job Listing</a>
 			<a href="">Submit Your Resume</a>
 			<a href="">Submit a job ad</a>
-			<a href="">Contacts</a>
+			<a href="contact.html">Contacts</a>
 		</div>
-		<br>
+		<div id = "about_us">
+			<h1>About Us : </h1><hr><br>
+			<h1 align = "center"><font color = "blue"> "NASHA" technologies</font></h1><br>
+			<div id = "na">
+				<h2><u>CEO</u></h2>
+				<img src = "con1.png" style = "width:250px;height:400px;">
+				<h3 id = "nar" style = "float:right;">Name              : SR narayanaa
+					<br>Field of interest : Software Systems
+					<br><br><font color = "blue">"Hakuna Matata"</font>
+				</h3>
+			</div>
+
+			<div id = "as">
+				<h2 style = "float:right;"><u>CTO</u></h2><br><br><br><br>
+				<img src = "con2.jpg" style = "width:250px; height:300px; float:right;"><br><br><br><br>
+				<h3 id = "ash">Name              : Ashfaaq IIM
+					<br>Field of interest : Software Systems
+					<br><br><font color = "blue">"Manners MAKETH Man!"</font>
+				</h3>
+			</div>
+			<br><br><br><br><br><br><br><br>
+			<div id = "ha">
+				<h2><u>An Employee</u></h2>
+				<img src = "con3.png" style = "width:250px;height:350px;">
+				<h3 id = "har" style = "float: right;">Name              : V.Harish Kumar
+					<br>Field of interest : Software Systems
+					<br><br><font color = "blue">"If it dosen't challenge you,It won't change you"</font>
+				</h3>
+			</div>
+		</div>
 
         <hr>
 		<footer>

@@ -10,11 +10,11 @@ body button {
 
 body div#nav {
     position: static;
-    margin-left: 420px;
+    margin-left: 430px;
     margin-top: -60px;
     background-color: #006666;
     overflow: hidden;
-    width: 60%;
+    width: 59%;
     border-radius: 0.1cm;
 }
 body div a {
