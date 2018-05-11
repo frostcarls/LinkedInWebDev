@@ -1,28 +1,10 @@
-body div#vertical_menu .vertical_menu_head {
-	font-size: 20;
-	font-family: sans-serif;
-}
 body div#vertical_menu {
-    width: 160px;
+	width: 85%;
     overflow-y: auto;
-    margin-left: 80px;
+    margin-left: 180px;
 }
 
-body div#vertical_menu a {
 
-    color: #000000;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
-
-body div#vertical_menu #vertical_menu_list a {
-
-    color: #cc0066;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
 
 body div#vertical_menu a:hover {
 	background-color: inherit;
