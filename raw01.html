@@ -6,6 +6,19 @@
 		<link rel = "stylesheet" href = "css/form_login.css">
 		<link rel = "stylesheet" href = "css/side_menu.css">
 		<style type="text/css">a {text-decoration: none}
+			body div#para
+			{
+				margin-left: 300px;
+				margin-top: -360px;
+				margin-right: 80px;
+				font-family: Verdana, sans-serif;
+			}
+			h4 {
+				color: #cc0066;
+				margin-left: 550px;
+				margin-top: -10px
+			}
+
 		</style>
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
@@ -20,9 +33,8 @@
 		<div id = "nav">
 			<a href="pages/about_us.html">About Us</a>
 			<a href="PHP/resume.php">View Resume</a>
-			<a href="">View Job Listing</a>
+			<a href="PHP/job_offer.php">View Job Listing</a>
 			<a href="pages/submit_resume.html">Submit Your Resume</a>
-			<a href="">Submit a job ad</a>
 			<a href="pages/contact.html">Contacts</a>
 		</div>
 		<br>
@@ -52,12 +64,16 @@
 			<h2 id = "find_head">Find a job</h2>
 			<div id = "find_job">
 				<br>
-			Company :<select name = "Commpany">
+			Company :<select name = "company">
 						<option value = "-1" selected>-- All companies --</option>
 						<option value = "1">Reliance Industries</option>
 						<option value = "2">Accenture</option>
 						<option value = "3">State Bank of India</option>
 						<option value = "4">TATA Motors</option>
+						<option value = "5">Rajesh Exports</option>
+						<option value = "6">Aban Offshore</option>
+						<option value = "7">ABP Group</option>
+						<option value = "8">Air Costa</option>
 					</select>
 			&emsp;&emsp;
 			Experience :<select name = "Experience">
@@ -94,7 +110,8 @@
 				<a href = "" style="float: right;"><u>Advanced Search</u></a><br>
 			</div>
 		</form>
-		<div id = "vertical_menu">
+
+			<div id = "vertical_menu">
 			<a href = "" class = "vertical_menu_head">Browse jobs</a>
 			<div id = "vertical_menu_list" style = "color: #cc0066">
 				<a href = "">* Accounting </a>
@@ -106,6 +123,31 @@
 				<a href = "">* More...</a>
 			</div>
 		</div>
+		<div id = "para">
+			<h1 style = "color: #006666">Job for you</h1>
+			<p>No matter where you are in your career, chances are you're in need of a little motivation to get to the
+				 next step to go for the job you'll actually love waking up for, to ask for that promotion,
+				  or to just push through a rough day. </p>
+
+
+    <p>"The most common way people give up their power is by thinking they do not have any"</p>
+
+<h4>- Alice Walker</h4>
+
+    <p>"The truth is that our finest moments are most likely to occur when we are feeling deeply uncomfortable, unhappy, or unfulfilled. For it is only in such moments, propelled by our discomfort,
+		 that we are likely to step out of our ruts and start searching for different ways or truer answers"</p>
+
+<h4>- M. Scott Peck</h4>
+
+    <p>"If you do not feel it, flee from it. Go where you are celebrated, not merely tolerated"</p>
+
+<h4>-Paul F. Davis</h4>
+
+    <p>"Find out what you like doing best, and get someone to pay you for doing it"</p>
+
+<h4>- Katharine Whitehorn</h4>
+		</div>
+		<br>
 		<hr>
 		<footer>
  			<p>All rights reserved &copy 2018 Nasha Technologies</p>

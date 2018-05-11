@@ -34,9 +34,8 @@
 		<div id = "nav">
 			<a href="../pages/about_us.html">About Us</a>
 			<a href="resume.php">View Resume</a>
-			<a href="">View Job Listing</a>
+			<a href="job_offer.php">View Job Listing</a>
 			<a href="../pages/submit_resume.html">Submit Your Resume</a>
-			<a href="">Submit a job ad</a>
 			<a href="../pages/contact.html">Contacts</a>
 		</div>
 	</body>
