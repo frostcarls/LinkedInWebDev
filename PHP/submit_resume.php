@@ -27,6 +27,6 @@ VALUES ('$gcollege', '$gyear', '$exp', '$hobby', '$lang', '$email')";
 
 mysqli_close($conn);
 
-header('location: /webdev/resume.php');
+header('location: /webdev/PHP/resume.php');
 ?>
 </html>

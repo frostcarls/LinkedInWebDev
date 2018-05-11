@@ -39,5 +39,5 @@ if($flag == 1) {
 
 $_SESSION["uname"] = $email;
 mysqli_close($conn);
-header("location: /webdev/resume.php");
+header("location: /webdev/PHP/resume.php");
 ?>

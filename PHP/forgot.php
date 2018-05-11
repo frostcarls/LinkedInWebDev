@@ -1,10 +1,10 @@
 <html>
 	<head>
-		<link rel = "stylesheet" href = "navigation_bar.css">
-		<link rel = "stylesheet" href = "bgimg.css">
-		<link rel = "stylesheet" href = "logo.css">
-		<link rel = "stylesheet" href = "form_login.css">
-		<link rel = "stylesheet" href = "side_menu.css">
+		<link rel = "stylesheet" href = "../css/navigation_bar.css">
+		<link rel = "stylesheet" href = "../css/bgimg.css">
+		<link rel = "stylesheet" href = "../css/logo.css">
+		<link rel = "stylesheet" href = "../css/form_login.css">
+		<link rel = "stylesheet" href = "../css/side_menu.css">
 		<style type="text/css">
             a {text-decoration: none}
 
@@ -23,18 +23,18 @@
 	</head>
 
 	<body>
-		<form mehtod = "get" action = "raw01.html">
+		<form mehtod = "get" action = "../raw01.html">
 			<button type = "submit">Home</button>
 		</form>
 		<div id = "logo"> Easy search job</div>
 
 		<div id = "nav">
-			<a href="about_us.html">About Us</a>
+			<a href="../pages/about_us.html">About Us</a>
 			<a href="resume.php">View Resume</a>
 			<a href="">View Job Listing</a>
-			<a href="">Submit Your Resume</a>
+			<a href="../pages/submit_resume.html">Submit Your Resume</a>
 			<a href="">Submit a job ad</a>
-			<a href="">Contacts</a>
+			<a href="../pages/contact.html">Contacts</a>
 		</div>
 
         <div id = "forgot">

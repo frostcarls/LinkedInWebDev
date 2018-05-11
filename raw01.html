@@ -1,10 +1,10 @@
 <html>
 	<head>
-		<link rel = "stylesheet" href = "navigation_bar.css">
-		<link rel = "stylesheet" href = "bgimg.css">
-		<link rel = "stylesheet" href = "logo.css">
-		<link rel = "stylesheet" href = "form_login.css">
-		<link rel = "stylesheet" href = "side_menu.css">
+		<link rel = "stylesheet" href = "css/navigation_bar.css">
+		<link rel = "stylesheet" href = "css/bgimg.css">
+		<link rel = "stylesheet" href = "css/logo.css">
+		<link rel = "stylesheet" href = "css/form_login.css">
+		<link rel = "stylesheet" href = "css/side_menu.css">
 		<style type="text/css">a {text-decoration: none}
 		</style>
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
@@ -12,18 +12,18 @@
 	</head>
 
 	<body>
-		<form mehtod = "get" action = "file:///Users/apple/Documents/repos/webdev/raw01.html">
+		<form mehtod = "get" action = "http://localhost:8888/webdev/raw01.html">
 			<button type = "submit">Home</button>
 		</form>
 		<div id = "logo"> Easy search job</div>
 
 		<div id = "nav">
-			<a href="about_us.html">About Us</a>
-			<a href="resume.php">View Resume</a>
+			<a href="pages/about_us.html">About Us</a>
+			<a href="PHP/resume.php">View Resume</a>
 			<a href="">View Job Listing</a>
-			<a href="">Submit Your Resume</a>
+			<a href="pages/submit_resume.html">Submit Your Resume</a>
 			<a href="">Submit a job ad</a>
-			<a href="contact.html">Contacts</a>
+			<a href="pages/contact.html">Contacts</a>
 		</div>
 		<br>
 		<div id = "img">
@@ -38,17 +38,17 @@
 
 		<br>
 
-		<form method = "POST" action = "login_form.php" id = "form_login">
+		<form method = "POST" action = "PHP/login_form.php" id = "form_login">
 			<h2 id = "login_head01">Login form </h2>
 		 	<div id = "user_pass">
 				Username :<input name = "usern" type = "text" size = "30"><br><br>
 		 		Password :<input name = "psw" type = "password" size = "30"><br><br>
 			</div>
 			<input type = "submit" id = "login" value = "Login" ><br><br>
-			<a href="forgot.php" style = "color: #66cc00;"><u>Forgotten password</u></a><br><br>
-			<a href="signup.html" style = "color: #66cc00;"><u>Register Now !</u></a><br><br>
+			<a href="PHP/forgot.php" style = "color: #66cc00;"><u>Forgotten password</u></a><br><br>
+			<a href="pages/signup.html" style = "color: #66cc00;"><u>Register Now !</u></a><br><br>
 		</form>
-		<form method = "post" action = "find_a_job.php" id = "find_a_job">
+		<form method = "post" action = "PHP/find_a_job.php" id = "find_a_job">
 			<h2 id = "find_head">Find a job</h2>
 			<div id = "find_job">
 				<br>
