@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#9CDBF8, white);
+    background-repeat: no-repeat;
 }
 body div#img{
     background-image:url("images2.jpg");
